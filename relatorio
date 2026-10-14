@@ -1,0 +1,26 @@
+========================================================
+             RELATORIO DE ANALISE DE DADOS              
+========================================================
+Arquivo analisado : clientes.csv
+Total de registros: 8
+Registros validos : 3 (37.5%)
+Registros invalidos: 5
+
+Erros por campo:
+   email           1
+   cpf             1
+   telefone        1
+   data_cadastro   2
+
+Detalhes dos erros:
+   - Linha 4: email 'bruno@@email' invalido (formato esperado: nome@dominio.com)
+   - Linha 5: cpf '***.***.***-**' invalido (formato esperado: NNN.NNN.NNN-NN)
+   - Linha 6: telefone '98 99999-0000' invalido (formato esperado: (00) 00000-0000)
+   - Linha 7: data_cadastro '2026-02-30' invalido (data inexistente no calendario)
+   - Linha 8: data_cadastro '30/09/2026' invalido (formato esperado: AAAA-MM-DD)
+
+Clientes validos:
+   - Ana Souza    ana@email.com          ***.***.***-**
+   - João Lima    joao@empresa.com.br    ***.***.***-**
+   - Gabi Torres  gabi@email.com         ***.***.***-**
+========================================================

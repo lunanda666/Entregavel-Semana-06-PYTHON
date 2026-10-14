@@ -1,0 +1,23 @@
+[
+  {
+    "nome": "Ana Souza",
+    "email": "ana@email.com",
+    "cpf": "123.456.789-00",
+    "telefone": "(98) 91234-5678",
+    "data_cadastro": "2026-08-30"
+  },
+  {
+    "nome": "João Lima",
+    "email": "joao@empresa.com.br",
+    "cpf": "987.654.321-00",
+    "telefone": "(11) 3456-7890",
+    "data_cadastro": "2026-09-01"
+  },
+  {
+    "nome": "Gabi Torres",
+    "email": "gabi@email.com",
+    "cpf": "555.666.777-88",
+    "telefone": "(98) 93333-2222",
+    "data_cadastro": "2026-10-01"
+  }
+]
